@@ -1,0 +1,62 @@
+    body{
+        background-color: rgb(97, 6, 74);
+    }
+   
+    .container1,.container2,.container3,.container4,.container5,
+    .container6,.container7,.container8,.container9,.container10{  
+        display: flex;
+        /* justify-content:flex-start; */
+       /* align-self:flex-end; */
+        background-color: rgb(143, 20, 116);
+        gap: 5px;
+    }
+
+
+    .box{
+        background-color: rgb(231, 124, 183);
+        width: 50px;
+        height: 50px;
+       border: 1px solid rgb(167, 19, 147);
+    }
+    .container1{
+        justify-content: flex-start;
+    }
+    .container2{
+        justify-content: center;
+
+    }
+    .container3{
+        
+       justify-content:flex-end;
+    }
+    .container4{
+        justify-content:space-between ;
+    }
+    .container5{
+        justify-content: space-around;
+    }
+    .container6{
+        justify-content: space-evenly;
+    }
+    .container7{
+        justify-content:center;
+    }
+     .container8{
+        
+       justify-content:space-between;
+    }
+     .container9{
+        
+       justify-content:space-around;
+    }
+    .container10{
+        justify-content: center;
+    }
+   
+
+    
+    
+
+
+     
+    
